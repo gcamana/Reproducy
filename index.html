@@ -1,53 +1,317 @@
-<!DOCTYPE html> <!-- Esto es HTML5 -->
-<!-- HTML: Idioma por pagina -->
-<html lang="es">
-	<!-- Etiquetas necesarias que no son contenido -->
-	<head>
-		<!-- Atributo: codificación -->
-		<meta charset="utf-8" />
-		<!-- Titulo de la pagina: entre 60 a 70 caracteres -->
-		<title>Frontend: esta es la pagina principal</title>
-		<!-- Descripción: entre 155 a 160 caracteres -->
-		<meta name="description" content="Curso de Frontend online" />
-		<!-- Keywords: entre 300 caracteres -->
-		<meta name="keywords" content="html, css, backbone, django, node" />
-	</head>
-	<!-- Contenido HTML -->
-	<body>
-		<!-- Cabecera -->
-		<header>
-			<figure id="logo">
-				<img src="https://yahoov4s1-a.akamaihd.net/sj/2196/2358758936_c928ef7401.jpg" />
-			</figure>
-			<h1>Curso de Frontend</h1>
-			<!-- Menu de navegación -->
-			<nav>
-				<li><a href="#">HTML</a></li>
-				<li><a href="#">CSS</a></li>
-				<li><a href="#">Backbone</a></li>
-				<li><a href="#">Django</a></li>
-				<li><a href="#">Node.js</a></li>
-			</nav>
-		</header>
-		<!-- Contenido -->
-		<section>
-			<!-- Articulo -->
-			<article class="item">
-				<figure class="figure_item">
-					<img src="http://farm5.staticflickr.com/4054/4514904944_c03254f204_z.jpg" />
-				</figure>
-				<h2 class="title_item">
-					<a href="#">Título</a>
-				</h2>
-				<div class="data_item">
-					<span>Texto descriptivo</span>
-				</div>
-			</article>
-		</section>
-		<!-- Pie de pagina -->
-		<footer>
-			<strong>Mejorando.la</strong>
-			<p>Texto de parrafo</p>
-		</footer>
-	</body>
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="vewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+
+        <title>Reproducy</title>
+        <link rel="stylesheet" href="css/estilo.css" />
+        <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header class="header relative border-bottom ">
+          <div class="logo">
+            <div class="wrap center-block">
+               <figure class="image isotipo left">
+              <img src="img/REPRODUCY.png" alt="reproducy">
+            </figure>
+             <div class="user right">
+              <figure class="avatar round left">
+                <img src="img/avatar/avatar.png" alt="@giov_anni5" width="38" height="38">
+              </figure>
+              <span class="left user-name">
+                @Giov_anni5  
+              </span>
+                       
+            </div>
+            <div class="search right">
+              <form action="" class="relative">
+                <span class="icon-search search-icon"></span>
+
+                <input  class="input" type="text" value="" placeholder="Ejem: @Giov_anni5">
+                <span class="close-icon">x</span>
+
+              </form>  
+            </div>
+            </div>
+          </div>
+            <a class="button-menu icon-menu">
+            </a>
+            <nav class="menu">
+                <ul class="list center-block wrap">
+                    <li class="item">
+                        <a href="">top hits</a>
+                    </li>
+                    <li class="item">
+                        <a href="">profile</a>
+                    </li>
+                    <li class="item">
+                        <a href="">settings</a>
+                    </li>
+                    <li class="item">
+                        <a href="">play list</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            <div class="title">
+                <span>Top Hits</span>
+            </div>
+        </header>
+        <section class="playing small medium large ">
+          <div class="music">
+           <figure class="image relative">
+            <img src="img/Pharrell-Williams-GIRL.png" alt=" Pharrell Williams" width="320px" height="320px">
+            <div class="actions padding right-text">
+              <a href="#" class="action icon-add"></a>
+              <a href="#" class="action icon-love"></a>
+              <a href="#" class="action icon-share"></a>
+            </div>
+          </figure>
+          <div class="padding ">
+            <div class="progress">
+              <span class="min">2:45</span>
+             
+              <div class="total">
+                <div class="state">
+                  <div class="circle">
+                    
+                  </div>
+                </div>
+              </div>
+               <span class="max">4:02</span>
+            </div>
+            <div class="description center-text border-bottom">
+              <p class="autor">Come Get it Bae</p>
+              <p class="name">Pharrell Williams </p>
+            </div>
+            <div class="play center-text padding-tb">
+              <a href="" class="action gray icon-prev">
+              <a href="" class="action gray icon-play">
+              <a href="" class="action gray icon-next">
+              <a href="" class="action gray icon-random">
+              <a href="" class="action gray icon-vol">
+                
+              </a>
+            </div>
+          </div> 
+          </div>
+          <div class="playlist right">
+              <p class="name">
+                Girl
+              </p>
+              <p class="autor">
+                Pharrerl Williams
+              </p>
+              <ul class="list">
+                <li class="item border-bottom">
+                  <span>Marilyn Monroe</span>
+                  <span class="right">
+                    <a href="" class="action icon-add gray"></a>
+                  <a href="" class="action icon-love gray"></a>
+                  <a href="" class="action icon-share gray"></a>
+                  </span>
+                </li>
+
+                <li class="item border-bottom">
+                  <span>Marilyn Monroe</span>
+                  <span class="right">
+                    <a href="" class="action icon-add gray"></a>
+                  <a href="" class="action icon-love gray"></a>
+                  <a href="" class="action icon-share gray"></a>
+                  </span>
+                </li>
+
+                <li class="item border-bottom">
+                  <span>Marilyn Monroe</span>
+                  <span class="right">
+                    <a href="" class="action icon-add gray"></a>
+                  <a href="" class="action icon-love gray"></a>
+                  <a href="" class="action icon-share gray"></a>
+                  </span>
+                </li>
+
+                <li class="item border-bottom">
+                  <span>Marilyn Monroe</span>
+                  <span class="right">
+                    <a href="" class="action icon-add gray"></a>
+                  <a href="" class="action icon-love gray"></a>
+                  <a href="" class="action icon-share gray"></a>
+                  </span>
+                </li>
+
+                <li class="item border-bottom">
+                  <span>Marilyn Monroe</span>
+                  <span class="right">
+                    <a href="" class="action icon-add gray"></a>
+                  <a href="" class="action icon-love gray"></a>
+                  <a href="" class="action icon-share gray"></a>
+                  </span>
+                </li>
+
+                <li class="item border-bottom">
+                  <span>Marilyn Monroe</span>
+                  <span class="right">
+                    <a href="" class="action icon-add gray"></a>
+                  <a href="" class="action icon-love gray"></a>
+                  <a href="" class="action icon-share gray"></a>
+                  </span>
+                </li>
+
+                <li class="item border-bottom">
+                  <span>Marilyn Monroe</span>
+                  <span class="right">
+                    <a href="" class="action icon-add gray"></a>
+                  <a href="" class="action icon-love gray"></a>
+                  <a href="" class="action icon-share gray"></a>
+                  </span>
+                </li>
+
+                <li class="item border-bottom">
+                  <span>Marilyn Monroe</span>
+                  <span class="right">
+                    <a href="" class="action icon-add gray"></a>
+                  <a href="" class="action icon-love gray"></a>
+                  <a href="" class="action icon-share gray"></a>
+                  </span>
+                </li>
+              </ul>
+            </div> 
+        </section>
+       <section class="container">
+           <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+           <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+            <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+            <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+            <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+            <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+           <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+           <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+            <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+            <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+            <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+            <article class="song">
+               <figure class="image">
+                   <img src="img/Pharrell-Williams-GIRL.png" alt="Girl pharrel williams" width="128" height="128" />
+               </figure>
+               <p class="name"> 
+                   Girl
+               </p>
+               <p class="autor">
+                   Pharrel Williams
+               </p>
+           </article>
+       </section>
+    </body>
 </html>

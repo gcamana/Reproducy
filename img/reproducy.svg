@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="311px" height="66px" viewBox="0 0 311 66" enable-background="new 0 0 311 66" xml:space="preserve">
+<g>
+	<text transform="matrix(0.9906 0 0 1 1 51.0703)" fill="#AF336D" font-family="'MyriadPro-Bold'" font-size="60.7174">Repr</text>
+	<text transform="matrix(0.9906 0 0 1 126.7695 51.0703)" font-family="'MyriadPro-Bold'" font-size="60.7174">o</text>
+	<text transform="matrix(0.9906 0 0 1 161.6563 51.0703)" fill="#444344" font-family="'MyriadPro-Bold'" font-size="60.7174">ducy</text>
+	<text transform="matrix(0.9906 0 0 1 295.2305 28.9609)" fill="#444344" font-family="'MyriadPro-Bold'" font-size="12.1435">TM</text>
+	<ellipse fill="#AF336D" cx="144.477" cy="36.254" rx="15.789" ry="15.743"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#EDEDED" d="M138.922,36.256c0-3.179,0-6.356,0.001-9.534
+		c0-0.837,0.342-1.11,1.14-0.858c0.327,0.104,0.626,0.304,0.931,0.475c5.214,2.915,10.425,5.837,15.645,8.746
+		c0.478,0.266,0.81,0.581,0.809,1.166c-0.002,0.584-0.331,0.901-0.809,1.168c-5.161,2.876-10.314,5.768-15.472,8.65
+		c-0.399,0.223-0.795,0.483-1.226,0.602c-0.724,0.202-1.017-0.066-1.018-0.813C138.921,42.655,138.922,39.456,138.922,36.256z"/>
+</g>
+</svg>
